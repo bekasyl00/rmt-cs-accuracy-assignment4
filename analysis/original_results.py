@@ -9,7 +9,7 @@ import json
 from math import comb
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ARCHIVE = DATA / "Assignment3_Main_Experiment_Data.json"
 ARCHIVE_SHA = "7ff20f027235b6d4c840b2ee82b0add6bb620b9374ada004779035bd2e34fe1d"

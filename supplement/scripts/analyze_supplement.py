@@ -18,8 +18,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 SUP = ROOT / "supplement"
-sys.path.insert(0, str(ROOT))
-from reproduce import paired_interval
+sys.path.insert(0, str(ROOT / "analysis"))
+from original_results import paired_interval
 
 CONDITIONS = ("simple", "model", "rag")
 GROUPS = ("overall", "established", "recent")

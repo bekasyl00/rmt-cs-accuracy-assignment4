@@ -6,8 +6,8 @@ import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 SUP=ROOT/'supplement'
-sys.path.insert(0,str(ROOT))
-from figures import chart_svg,rect,text
+sys.path.insert(0,str(ROOT/"analysis"))
+from plot_original import chart_svg,rect,text
 
 CONDITIONS=('simple','model','rag')
 LABELS={'simple':'Keyword search','model':'Qwen code model','rag':'Qwen + BM25 RAG'}

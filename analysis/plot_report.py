@@ -1,7 +1,7 @@
 """Rebuild all three report charts from CSV results. Standard library only."""
 import argparse
 from pathlib import Path
-from figures import read_rows, chart_svg, text, rect, errors_chart
+from plot_original import read_rows, chart_svg, text, rect, errors_chart
 
 def accuracy_chart(rows):
     colors=['#244e78','#057b72']

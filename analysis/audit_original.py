@@ -7,7 +7,7 @@ from fractions import Fraction
 from math import comb, factorial
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 def rows(name):
     with (ROOT / 'results' / name).open(newline='') as f:

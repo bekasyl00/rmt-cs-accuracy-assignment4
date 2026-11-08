@@ -10,4 +10,4 @@
 - Differences/errors reported: none in the supplied successful ending.
 - Scope: execution of saved-data scripts, not independent human re-rating of model correctness.
 
-Structured record: bekasyl_reproduction_record.json. The separate earlier Mereke record remains evidence about the original release only.
+Structured record: docs/reproduction_record.json. The separate earlier Mereke record remains evidence about the original release only.

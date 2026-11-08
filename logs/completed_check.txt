@@ -1,3 +1,4 @@
+Automated check after file organization. Results and input hashes unchanged.
 101/120 fully correct; 344/360 checkpoint points
 Five CSV tables verified.
 PASS: archive checksum, 120 unique answers, 40 questions, 20 pairs, ecosystem/block quotas.

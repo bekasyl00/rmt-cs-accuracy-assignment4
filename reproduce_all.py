@@ -18,11 +18,11 @@ def main():
         for path,digest in json.loads(inputs.read_text()).items():
             if sha(ROOT/path)!=digest:raise RuntimeError('Saved input differs: '+path)
     if a.verify and before is None:raise RuntimeError('Missing reference_outputs.json')
-    run('reproduce.py','--verify')
-    run('audit_bekasyl.py')
-    run('robustness.py')
-    run('figures.py','--results','reproduced','--out','reproduced/figures')
-    run('figures_bekasyl.py','--results','reproduced','--out','reproduced/report_figures')
+    run('analysis/original_results.py','--verify')
+    run('analysis/audit_original.py')
+    run('analysis/robustness.py')
+    run('analysis/plot_original.py','--results','reproduced','--out','reproduced/figures')
+    run('analysis/plot_report.py','--results','reproduced','--out','reproduced/report_figures')
     run('supplement/scripts/analyze_supplement.py','--out','reproduced/supplement_results')
     run('supplement/scripts/figures_supplement.py','--results','reproduced/supplement_results','--out','reproduced/supplement_figures')
     mapping={}

@@ -3,9 +3,9 @@ import csv
 from collections import Counter, defaultdict
 from fractions import Fraction
 from pathlib import Path
-from reproduce import read_archive, fully_correct, paired_interval
+from original_results import read_archive, fully_correct, paired_interval
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 def convolve(a,b):
     out=Counter()
