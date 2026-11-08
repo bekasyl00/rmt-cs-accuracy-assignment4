@@ -1,0 +1,24 @@
+{
+  "person": "Bekasyl Zhaksylyk",
+  "confirmation_received_date": "2026-11-08",
+  "evidence": "User-provided terminal excerpt",
+  "scope_confirmed": "complete original and supplementary saved-data analysis and SVG regeneration",
+  "supplementary_full_reproduction_confirmed": true,
+  "observed_output_lines": [
+    "101/120 fully correct; 344/360 checkpoint points",
+    "Five CSV tables verified.",
+    "PASS: archive checksum, 120 unique answers, 40 questions, 20 pairs, ecosystem/block quotas.",
+    "PASS: every cell of main results and sensitivity tables; error counts and coverage.",
+    "PASS: exact McNemar probabilities, Holm correction, independently enumerated bootstrap intervals.",
+    "Three report SVG charts written to report_figures"
+  ],
+  "limits": "User confirmed personally executing the command and supplied the full successful terminal ending. Exact Python version and execution timestamp were not included in the excerpt. This is not independent re-rating of answer correctness.",
+  "command": "cd extended-study && python3 reproduce_all.py --verify",
+  "observed_final_output": [
+    "Verified complete grid: 40 questions \u00d7 3 conditions; 120 explicit ratings.",
+    "simple: 4/40 fully correct; 52/120 checkpoints; 0 missing",
+    "model: 4/40 fully correct; 44/120 checkpoints; 0 missing",
+    "rag: 6/40 fully correct; 65/120 checkpoints; 0 missing",
+    "PASS: 22 CSV/SVG files match saved evidence. No model or network needed."
+  ]
+}

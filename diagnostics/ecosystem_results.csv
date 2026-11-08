@@ -1,0 +1,16 @@
+condition,ecosystem,pairs,established_correct,recent_correct,gap_pp
+GPT-6 Luna,Git,4,4,3,25.0
+GPT-6 Luna,Node.js,4,4,2,50.0
+GPT-6 Luna,PostgreSQL,4,4,4,0.0
+GPT-6 Luna,Python,4,4,2,50.0
+GPT-6 Luna,TypeScript,4,4,4,0.0
+Sonnet 5.5,Git,4,3,3,0.0
+Sonnet 5.5,Node.js,4,4,3,25.0
+Sonnet 5.5,PostgreSQL,4,4,4,0.0
+Sonnet 5.5,Python,4,4,4,0.0
+Sonnet 5.5,TypeScript,4,4,3,25.0
+Gemini 3.8 Flash,Git,4,4,2,50.0
+Gemini 3.8 Flash,Node.js,4,3,2,25.0
+Gemini 3.8 Flash,PostgreSQL,4,4,4,0.0
+Gemini 3.8 Flash,Python,4,4,0,100.0
+Gemini 3.8 Flash,TypeScript,4,3,4,-25.0

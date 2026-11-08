@@ -1,0 +1,322 @@
+[
+  {
+    "display_id": "V2Q01",
+    "question": "In TypeScript 2.4, enum State { Ready = 'READY' } is compiled to JavaScript. (a) Does State disappear completely as type-only syntax? (b) What runtime value is State.Ready? (c) Is a numeric-enum-style reverse mapping from 'READY' to 'Ready' generated for this string enum?",
+    "group": "established",
+    "ecosystem": "TypeScript",
+    "pair_id": "P09",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q02",
+    "question": "In Python 3.8, records are [('A', 2), ('B', 1), ('C', 2)]. Evaluate sorted(records, key=lambda x: x[1], reverse=True). (a) Give the complete result. (b) Explain the order of A and C. (c) Assess the claim that reverse=True reverses equal-key items.",
+    "group": "established",
+    "ecosystem": "Python",
+    "pair_id": "P01",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q03",
+    "question": "For Python 3.14, assess two handlers: A is 'except ValueError, TypeError:' and B is 'except ValueError, TypeError as err:'. (a) Is A valid? (b) Is B valid? (c) Rewrite B so it catches both exceptions and binds err.",
+    "group": "recent",
+    "ecosystem": "Python",
+    "pair_id": "P03",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q04",
+    "question": "In Node.js 12.0.0 CommonJS, a module runs exports = {ready: true}; module.exports.ok = true;. (a) What object does require() return? (b) Explain why ready is absent or present. (c) Correct the first assignment so the replacement object is exported.",
+    "group": "established",
+    "ecosystem": "Node.js",
+    "pair_id": "P13",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q05",
+    "question": "A TypeScript 5.8 project uses module=nodenext and synchronously require()s an ES module whose dependency uses top-level await. (a) Does the newer nodenext checking allow require-to-ESM in principle? (b) Is this asynchronous dependency graph suitable for synchronous require loading? (c) Give a loading strategy for that graph.",
+    "group": "recent",
+    "ecosystem": "TypeScript",
+    "pair_id": "P11",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q06",
+    "question": "In Git 2.24, a normal clone is made without --single-branch and without --no-checkout. (a) Does it normally create local branches for every remote branch? (b) Explain the usual local and remote-tracking branch arrangement. (c) State what is checked out initially.",
+    "group": "established",
+    "ecosystem": "Git",
+    "pair_id": "P17",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q07",
+    "question": "In PostgreSQL 12, customers contains IDs 1 and 2; orders contains one row (customer_id=1, status='paid'). A LEFT JOIN on customer ID is followed by WHERE orders.status='paid'. (a) Which customer IDs remain? (b) Explain the missing-customer effect. (c) Move the condition so both customers remain.",
+    "group": "established",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P05",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q08",
+    "question": "In Node.js 23.10.0, app.json contains {\"watch\":true} and is supplied with --experimental-config-file=app.json. A developer expects watch to be read as a Node option. (a) Identify the configuration format. (b) Give the correct top-level property and nesting for watch. (c) Assess whether this is an ordinary JavaScript module executed by Node.",
+    "group": "recent",
+    "ecosystem": "Node.js",
+    "pair_id": "P15",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q09",
+    "question": "A PostgreSQL 18 table uses uuidv7() for record IDs. A developer claims this makes the IDs purely random and proves that a record was committed before every record with a larger ID. (a) Identify the UUID version. (b) Explain the ordering basis. (c) Assess the claim about guaranteed transaction commit order.",
+    "group": "recent",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P07",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q10",
+    "question": "In Git 2.49, rev-list uses --missing=print-info and reports an unavailable object. (a) Identify the object identity information still reported. (b) Name the two extra kinds of information the new mode can include. (c) Assess whether both extra fields are guaranteed for every missing object.",
+    "group": "recent",
+    "ecosystem": "Git",
+    "pair_id": "P19",
+    "block": 1
+  },
+  {
+    "display_id": "V2Q11",
+    "question": "In TypeScript 2.0, function f(x: string | number) contains: if (typeof x === 'string') { x = 1; return x.length; }. (a) Identify the type of x immediately after x = 1. (b) Assess x.length at that point. (c) Give a minimal correction that returns the original string's length.",
+    "group": "established",
+    "ecosystem": "TypeScript",
+    "pair_id": "P10",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q12",
+    "question": "In Node.js 23.11.0, assume process.execve(file, args, env) succeeds on a supported platform. A developer expects the old JavaScript program to resume and its exit listener to flush a log. (a) Assess whether a child is created or the current image is replaced. (b) Assess whether the successful call returns to the old program. (c) Assess the exit-listener expectation.",
+    "group": "recent",
+    "ecosystem": "Node.js",
+    "pair_id": "P16",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q13",
+    "question": "In PostgreSQL 18, assume btree_gist is installed. A booking key is PRIMARY KEY (room, during WITHOUT OVERLAPS), with integer room, during a nonempty range, and an existing row room=1, [10,12). (a) Assess room=1, [11,13). (b) Assess room=2, [11,13). (c) Assess room=1, [12,14), and identify the required type family for the final key column.",
+    "group": "recent",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P08",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q14",
+    "question": "In Python 3.14, an operator calls sys.remote_exec(pid, script). The operator expects a new child process and assumes any PID is permitted. (a) State what pid and script identify. (b) State where the script executes. (c) Assess the unrestricted-permission assumption.",
+    "group": "recent",
+    "ecosystem": "Python",
+    "pair_id": "P04",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q15",
+    "question": "A project compiling with TypeScript 5.8 and module=node18 contains a synchronous require() of an ES module and an ESM import with an import attribute. (a) Identify the runtime version semantics being modelled. (b) Assess the require-to-ESM assumption for this mode. (c) Assess the claim that node18 mode rejects import attributes as a feature.",
+    "group": "recent",
+    "ecosystem": "TypeScript",
+    "pair_id": "P12",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q16",
+    "question": "In Node.js 12.0.0, two ordinary EventEmitter listeners are registered for 'ready'; the program logs 'before', calls emit('ready'), then logs 'after'. The listeners log 'one' and 'two'. (a) Give the log order. (b) Assess whether emit defers these listeners. (c) Name a change that schedules listener work for a later event-loop turn.",
+    "group": "established",
+    "ecosystem": "Node.js",
+    "pair_id": "P14",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q17",
+    "question": "In Git 2.24, a developer runs git clone --branch v1.0 URL and v1.0 names a tag, not a branch. (a) Describe HEAD after checkout. (b) Assess whether the tag becomes a local branch automatically. (c) Give a step needed before new commits should belong to a named local branch.",
+    "group": "established",
+    "ecosystem": "Git",
+    "pair_id": "P18",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q18",
+    "question": "In Git 2.50, a researcher wants to remove the entire reflog for main while keeping the branch reference. (a) Name the subcommand introduced for this purpose. (b) State its scope of removal. (c) Assess whether the branch reference itself is deleted.",
+    "group": "recent",
+    "ecosystem": "Git",
+    "pair_id": "P20",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q19",
+    "question": "In PostgreSQL 12, total is defined as GENERATED ALWAYS AS (price * quantity) STORED. Initially price=10 and quantity=3; quantity is then updated to 4. (a) Give the resulting total. (b) State when it is recomputed and whether its result is stored. (c) Assess whether GENERATED ... VIRTUAL is an alternative supported in this version.",
+    "group": "established",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P06",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q20",
+    "question": "In Python 3.8, a = [[1], [2]]; b = a.copy(); b[0].append(9); b.append([3]). (a) Give a and b. (b) Explain the different effects of the two mutations. (c) Name a change made at the copying step that isolates both nested lists.",
+    "group": "established",
+    "ecosystem": "Python",
+    "pair_id": "P02",
+    "block": 2
+  },
+  {
+    "display_id": "V2Q21",
+    "question": "In Python 3.8, a handler uses 'except ValueError or TypeError as err:'. (a) Which of the two exception classes does this expression select? (b) Give a handler that catches both and binds err. (c) Explain why the original expression is not a two-type exception list.",
+    "group": "established",
+    "ecosystem": "Python",
+    "pair_id": "P03",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q22",
+    "question": "A Node.js 23.8.0 file executes new URLPattern('/books/:id', 'https://example.org') without an import. (a) Is URLPattern a global in exactly this version? (b) Give the CommonJS import needed. (c) Identify the later major version planned to expose it globally.",
+    "group": "recent",
+    "ecosystem": "Node.js",
+    "pair_id": "P13",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q23",
+    "question": "In Git 2.24, history forks after C: branch A is C-X and branch B is C-D-E, with no other commits. (a) List the commits selected by git log A..B. (b) List those selected by B..A. (c) Explain why C is excluded from both ranges.",
+    "group": "established",
+    "ecosystem": "Git",
+    "pair_id": "P19",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q24",
+    "question": "In Python 3.14, name = '<b>Ada</b>' and value = t'Hello {name}'. A developer passes value directly to an API requiring str, expecting escaped HTML. (a) Identify the value's type. (b) Explain how the literal text and name value are represented. (c) Identify the unsupported escaping assumption.",
+    "group": "recent",
+    "ecosystem": "Python",
+    "pair_id": "P01",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q25",
+    "question": "In Node.js 12.0.0, fs.writeFile('x.txt', 'new', cb1) and fs.readFile('x.txt', 'utf8', cb2) are started one after another without nesting or awaiting. (a) Is cb2 guaranteed to receive 'new'? (b) Explain why call order is insufficient. (c) Give a sequencing and error-handling correction.",
+    "group": "established",
+    "ecosystem": "Node.js",
+    "pair_id": "P15",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q26",
+    "question": "In TypeScript 5.8 with erasableSyntaxOnly enabled, a file contains enum State { Ready = 'READY' } and a function using State. (a) Identify the rejected construct. (b) Explain why the flag rejects it. (c) Propose an erasable type-level replacement for the set of permitted string values.",
+    "group": "recent",
+    "ecosystem": "TypeScript",
+    "pair_id": "P09",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q27",
+    "question": "In PostgreSQL 18, account 7 has balance 100. An UPDATE adds 25 and must return the previous balance, new balance and change in one statement. (a) Write the relevant UPDATE ... RETURNING statement. (b) Give its returned three values. (c) Explain whether a separate pre-update SELECT is needed for these values.",
+    "group": "recent",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P05",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q28",
+    "question": "In PostgreSQL 12, a nullable column has a UNIQUE constraint. A developer inserts NULL twice and claims UNIQUE makes the column equivalent to a primary key. (a) Are both NULL rows allowed by the default UNIQUE rule? (b) What extra nullability rule does a primary key impose? (c) State whether the developer's equivalence claim is valid.",
+    "group": "established",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P07",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q29",
+    "question": "In a Git 2.49 blobless partial clone, a workflow repeatedly pauses to fetch missing file contents one by one. (a) Identify the command introduced to prefetch this data. (b) Identify the kind of missing objects it targets. (c) Explain how its retrieval approach differs from waiting for individual on-demand downloads.",
+    "group": "recent",
+    "ecosystem": "Git",
+    "pair_id": "P17",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q30",
+    "question": "In TypeScript 2.0 with strictNullChecks, function readName(user: {name: string} | undefined) { return user!.name; } is called with undefined. (a) What checking effect does ! have? (b) Does it add a runtime guard, and what happens in this call? (c) Give a safe guard before accessing name.",
+    "group": "established",
+    "ecosystem": "TypeScript",
+    "pair_id": "P11",
+    "block": 3
+  },
+  {
+    "display_id": "V2Q31",
+    "question": "In PostgreSQL 12, assume btree_gist is installed and bookings has EXCLUDE USING gist (room WITH =, during WITH &&). An existing row is room=1, during=[10,12). (a) Is room=1, [11,13) allowed? (b) Is room=2, [11,13) allowed? (c) Is room=1, [12,14) allowed? Explain the boundary case.",
+    "group": "established",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P08",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q32",
+    "question": "A team reads the Node.js 23.8.0 announcement and expects --use-system-ca to work identically on macOS, Windows and Linux and replace all bundled CA roots. (a) State its trust-store purpose. (b) Identify the operating systems supported in that release. (c) Assess the replacement-of-bundled-roots claim.",
+    "group": "recent",
+    "ecosystem": "Node.js",
+    "pair_id": "P14",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q33",
+    "question": "In TypeScript 2.0, Shape is {kind:'circle', radius:number} | {kind:'square', side:number}. A switch handles only circle; default calls assertNever(s), where assertNever accepts never. (a) Is s of type never in default? (b) Explain the resulting check. (c) Give a correction preserving exhaustive handling.",
+    "group": "established",
+    "ecosystem": "TypeScript",
+    "pair_id": "P12",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q34",
+    "question": "A TypeScript 5.8 project contains @typescript/lib-dom. The developer sets libReplacement to false and claims this removes all DOM declarations from compilation. (a) State which lookup the option disables. (b) Assess whether false itself removes DOM from the selected lib set. (c) State which declaration source is normally used instead, assuming DOM is selected.",
+    "group": "recent",
+    "ecosystem": "TypeScript",
+    "pair_id": "P10",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q35",
+    "question": "In Git 2.49, git clone --revision=REV URL targets a particular commit. A developer expects local main and origin/main branches to be created for continued work. (a) Describe HEAD. (b) Assess creation of local and remote-tracking branches. (c) State the additional action needed to commit on a named branch.",
+    "group": "recent",
+    "ecosystem": "Git",
+    "pair_id": "P18",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q36",
+    "question": "In Node.js 12.0.0 on a system with /usr/bin/printf, execFile('/usr/bin/printf', ['%s', 'hello; echo EXTRA']) is called without shell:true. (a) Is a child process created or is the current process replaced? (b) Is '; echo EXTRA' interpreted as a shell command? (c) Give the text supplied to printf as its second argument and explain the relevant boundary.",
+    "group": "established",
+    "ecosystem": "Node.js",
+    "pair_id": "P16",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q37",
+    "question": "In Git 2.24, a local branch main has a reflog. (a) What does git reflog delete main@{1} remove? (b) Does it delete branch main itself? (c) Explain why deleting this one entry does not mean the whole reflog has been removed.",
+    "group": "established",
+    "ecosystem": "Git",
+    "pair_id": "P20",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q38",
+    "question": "In PostgreSQL 18, compare total GENERATED ALWAYS AS (price * quantity) VIRTUAL with the STORED form after quantity changes from 3 to 4 while price=10. (a) Give the value read from each. (b) Compare when each expression is evaluated. (c) Compare storage of the calculated result.",
+    "group": "recent",
+    "ecosystem": "PostgreSQL",
+    "pair_id": "P06",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q39",
+    "question": "In Python 3.8, functions = [lambda: i for i in range(3)], followed by [f() for f in functions]. (a) Give the result. (b) Explain when i is looked up. (c) Change the lambda so the result is [0, 1, 2].",
+    "group": "established",
+    "ecosystem": "Python",
+    "pair_id": "P04",
+    "block": 4
+  },
+  {
+    "display_id": "V2Q40",
+    "question": "A Python 3.14 service needs to compress a bytes payload with the standard library, recover the original bytes, and protect a confidential token. (a) Name the Zstandard module and one-shot compression call. (b) Name the inverse call. (c) Assess whether these operations alone provide encryption.",
+    "group": "recent",
+    "ecosystem": "Python",
+    "pair_id": "P02",
+    "block": 4
+  }
+]

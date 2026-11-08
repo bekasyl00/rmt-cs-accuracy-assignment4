@@ -1,0 +1,9 @@
+{
+  "data/Assignment3_Main_Experiment_Data.json": "7ff20f027235b6d4c840b2ee82b0add6bb620b9374ada004779035bd2e34fe1d",
+  "data/error_codes.csv": "544e3ff2c61ec58711bf73899a6f713c20d630e11a941fcb503108ca3b702cb2",
+  "supplement/raw/answers.jsonl": "90172317fe3eb8192b07156ddbeba144d7cd16ba7fab779234d37ac411e10f86",
+  "supplement/raw/ratings.jsonl": "712b145fcd4c732e37e281d46e716f2997bc654bbb918c9f26e24f8841090fe0",
+  "supplement/protocol/questions_only.json": "9a81a61d2c240770bedee91f8787242bcd9c6396dec73efdb7eca18a88d9a415",
+  "supplement/corpus/manifest.json": "5c7a521ebb2189dbf22e44f906b10019f7c10df0d25269964924e9b7896f427d",
+  "supplement/protocol/freeze_manifest.json": "696af6ff24f2857878c03e35c40f8e10b9fcb7b39bfaa5fa2470f284e2e172c5"
+}

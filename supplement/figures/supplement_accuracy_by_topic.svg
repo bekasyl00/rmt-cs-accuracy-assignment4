@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 457" width="860" height="457" role="img"><title>Supplementary full-correct accuracy</title>
+<rect width="860" height="457" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#192b40">
+<text x="32" y="38" text-anchor="start" font-size="23" font-weight="700">Supplementary full-correct accuracy</text>
+<text x="32" y="68" text-anchor="start" font-size="15" font-weight="400">Twenty planned questions per topic and condition. Whiskers: 95% Wilson intervals.</text>
+<rect x="550" y="83" width="16" height="16" fill="#244e78" rx="2"/>
+<text x="573" y="96" text-anchor="start" font-size="14" font-weight="400">Established</text>
+<rect x="685" y="83" width="16" height="16" fill="#057b72" rx="2"/>
+<text x="708" y="96" text-anchor="start" font-size="14" font-weight="400">Recent</text>
+<path d="M 75 333.0 H 815" stroke="#d9e1e9"/>
+<text x="64" y="337.0" text-anchor="end" font-size="14" font-weight="400">0%</text>
+<path d="M 75 291.0 H 815" stroke="#d9e1e9"/>
+<text x="64" y="295.0" text-anchor="end" font-size="14" font-weight="400">20%</text>
+<path d="M 75 249.0 H 815" stroke="#d9e1e9"/>
+<text x="64" y="253.0" text-anchor="end" font-size="14" font-weight="400">40%</text>
+<path d="M 75 207.0 H 815" stroke="#d9e1e9"/>
+<text x="64" y="211.0" text-anchor="end" font-size="14" font-weight="400">60%</text>
+<path d="M 75 165.0 H 815" stroke="#d9e1e9"/>
+<text x="64" y="169.0" text-anchor="end" font-size="14" font-weight="400">80%</text>
+<path d="M 75 123.0 H 815" stroke="#d9e1e9"/>
+<text x="64" y="127.0" text-anchor="end" font-size="14" font-weight="400">100%</text>
+<rect x="137" y="312.0" width="52" height="21.0" fill="#244e78" rx="2"/>
+<path d="M 163 269.78293450201767 V 327.1480389451087 M 156 269.78293450201767 H 170 M 156 327.1480389451087 H 170" stroke="#111827" stroke-width="1.8"/>
+<text x="163" y="355" text-anchor="middle" font-size="14" font-weight="700">10%</text>
+<text x="163" y="373" text-anchor="middle" font-size="13" font-weight="400">2/20</text>
+<rect x="201" y="312.0" width="52" height="21.0" fill="#057b72" rx="2"/>
+<path d="M 227 269.78293450201767 V 327.1480389451087 M 220 269.78293450201767 H 234 M 220 327.1480389451087 H 234" stroke="#111827" stroke-width="1.8"/>
+<text x="227" y="355" text-anchor="middle" font-size="14" font-weight="700">10%</text>
+<text x="227" y="373" text-anchor="middle" font-size="13" font-weight="400">2/20</text>
+<text x="195" y="399" text-anchor="middle" font-size="16" font-weight="700">Keyword search</text>
+<rect x="382" y="291.0" width="52" height="42.0" fill="#244e78" rx="2"/>
+<path d="M 408 245.63633922710233 V 316.0618908582424 M 401 245.63633922710233 H 415 M 401 316.0618908582424 H 415" stroke="#111827" stroke-width="1.8"/>
+<text x="408" y="355" text-anchor="middle" font-size="14" font-weight="700">20%</text>
+<text x="408" y="373" text-anchor="middle" font-size="13" font-weight="400">4/20</text>
+<rect x="446" y="333.0" width="52" height="0.0" fill="#057b72" rx="2"/>
+<path d="M 472 299.1637168089079 V 333.0 M 465 299.1637168089079 H 479 M 465 333.0 H 479" stroke="#111827" stroke-width="1.8"/>
+<text x="472" y="355" text-anchor="middle" font-size="14" font-weight="700">0%</text>
+<text x="472" y="373" text-anchor="middle" font-size="13" font-weight="400">0/20</text>
+<text x="440" y="399" text-anchor="middle" font-size="16" font-weight="700">Qwen code model</text>
+<rect x="627" y="312.0" width="52" height="21.0" fill="#244e78" rx="2"/>
+<path d="M 653 269.78293450201767 V 327.1480389451087 M 646 269.78293450201767 H 660 M 646 327.1480389451087 H 660" stroke="#111827" stroke-width="1.8"/>
+<text x="653" y="355" text-anchor="middle" font-size="14" font-weight="700">10%</text>
+<text x="653" y="373" text-anchor="middle" font-size="13" font-weight="400">2/20</text>
+<rect x="691" y="291.0" width="52" height="42.0" fill="#057b72" rx="2"/>
+<path d="M 717 245.63633922710233 V 316.0618908582424 M 710 245.63633922710233 H 724 M 710 316.0618908582424 H 724" stroke="#111827" stroke-width="1.8"/>
+<text x="717" y="355" text-anchor="middle" font-size="14" font-weight="700">20%</text>
+<text x="717" y="373" text-anchor="middle" font-size="13" font-weight="400">4/20</text>
+<text x="685" y="399" text-anchor="middle" font-size="16" font-weight="700">Qwen + BM25 RAG</text>
+<text x="32" y="433" text-anchor="start" font-size="14" font-weight="400">Single deterministic run. Pointwise intervals do not model ecosystem or shared-block dependence.</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+101/120 fully correct; 344/360 checkpoint points
+Five CSV tables verified.
+PASS: archive checksum, 120 unique answers, 40 questions, 20 pairs, ecosystem/block quotas.
+PASS: every cell of main results and sensitivity tables; error counts and coverage.
+PASS: exact McNemar probabilities, Holm correction, independently enumerated bootstrap intervals.
+PASS: 101/120 fully correct; 344/360 points; 19 partial; checkpoint-only 106/120.
+Scope: audit of archived judgments and calculations; no new generations or human rating agreement.
+{'condition': 'GPT-6 Luna', 'stratified_ci_low_pp': 10, 'stratified_ci_high_pp': 40, 'leave_one_out_min_pp': 18.75, 'leave_one_out_max_pp': 31.25}
+{'condition': 'Sonnet 5.5', 'stratified_ci_low_pp': 0, 'stratified_ci_high_pp': 25, 'leave_one_out_min_pp': 6.25, 'leave_one_out_max_pp': 12.5}
+{'condition': 'Gemini 3.8 Flash', 'stratified_ci_low_pp': 15, 'stratified_ci_high_pp': 45, 'leave_one_out_min_pp': 12.5, 'leave_one_out_max_pp': 43.75}
+Diagnostics are retrospective; preserve four pairs per ecosystem, not prompt-block dependence.
+Two SVG charts written to reproduced/figures
+Three report SVG charts written to reproduced/report_figures
+Verified complete grid: 40 questions × 3 conditions; 120 explicit ratings.
+simple: 4/40 fully correct; 52/120 checkpoints; 0 missing
+model: 4/40 fully correct; 44/120 checkpoints; 0 missing
+rag: 6/40 fully correct; 65/120 checkpoints; 0 missing
+Wrote 7 CSVs to reproduced/supplement_results. All five supplementary tests share one Holm family.
+Wrote two plots from actual main_results.csv to reproduced/supplement_figures
+PASS: 22 CSV/SVG files match saved evidence. No model or network needed.
+Original: 120 answers; supplement: 120 outputs and 120 explicit ratings.
+This is an automated software check, not a human teammate attestation.

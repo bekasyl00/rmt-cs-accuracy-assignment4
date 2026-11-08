@@ -1,0 +1,33 @@
+Verification date 2026-11-08T17:34:07.548350+05:00
+Python 3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]
+Platform macOS-26.3-arm64-arm-64bit
+Clean venv /Users/bekasyljaksylyk/Documents/ChatGPT/research methods and tools/work/verify_env
+Mode: automated reproduction, not a human teammate test.
+COMMAND python reproduce.py --verify
+101/120 fully correct; 344/360 checkpoint points
+Five CSV tables verified.
+COMMAND python figures.py --results reproduced --out reproduced/figures
+Two SVG charts written to reproduced/figures
+COMMAND python audit_bekasyl.py
+PASS: archive checksum, 120 unique answers, 40 questions, 20 pairs, ecosystem/block quotas.
+PASS: every cell of main results and sensitivity tables; error counts and coverage.
+PASS: exact McNemar probabilities, Holm correction, independently enumerated bootstrap intervals.
+PASS: 101/120 fully correct; 344/360 points; 19 partial; checkpoint-only 106/120.
+Scope: audit of archived judgments and calculations; no new generations or human rating agreement.
+COMMAND python figures_bekasyl.py --results reproduced --out reproduced/report_figures
+Three report SVG charts written to reproduced/report_figures
+IDENTICAL figures/accuracy_by_topic.svg
+IDENTICAL figures/error_categories.svg
+IDENTICAL report_figures/accuracy_by_topic.svg
+IDENTICAL report_figures/error_categories.svg
+IDENTICAL report_figures/topic_gap_intervals.svg
+PASS: live website embedded data equals released JSON data structure.
+PASS: all original release files preserved byte for byte in supplement.
+
+Final figure layout check 2026-11-08T17:38:57.000893+05:00
+PASS: final three report SVG files match regenerated files byte for byte.
+Report: 12 pages rendered and visually checked; original team analysis and Discussion retained.
+
+Revision check 8 November 2026
+PASS: original five tables and arithmetic audit unchanged.
+PASS: stratified bootstrap endpoints independently confirmed by multinomial enumeration.

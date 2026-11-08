@@ -1,0 +1,7 @@
+condition,group,n,any_reference_source_retrieved,reference_source_hit_percent,mean_distinct_retrieved_sources
+simple,overall,40,32,80.0,1.875
+simple,established,20,17,85.0,1.6
+simple,recent,20,15,75.0,2.15
+rag,overall,40,38,95.0,1.9
+rag,established,20,19,95.0,1.7
+rag,recent,20,19,95.0,2.1

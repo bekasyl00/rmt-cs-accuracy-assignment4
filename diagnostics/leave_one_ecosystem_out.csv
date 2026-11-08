@@ -1,0 +1,16 @@
+condition,excluded_ecosystem,pairs,gap_pp
+GPT-6 Luna,Git,16,25.00
+GPT-6 Luna,Node.js,16,18.75
+GPT-6 Luna,PostgreSQL,16,31.25
+GPT-6 Luna,Python,16,18.75
+GPT-6 Luna,TypeScript,16,31.25
+Sonnet 5.5,Git,16,12.50
+Sonnet 5.5,Node.js,16,6.25
+Sonnet 5.5,PostgreSQL,16,12.50
+Sonnet 5.5,Python,16,12.50
+Sonnet 5.5,TypeScript,16,6.25
+Gemini 3.8 Flash,Git,16,25.00
+Gemini 3.8 Flash,Node.js,16,31.25
+Gemini 3.8 Flash,PostgreSQL,16,37.50
+Gemini 3.8 Flash,Python,16,12.50
+Gemini 3.8 Flash,TypeScript,16,43.75
