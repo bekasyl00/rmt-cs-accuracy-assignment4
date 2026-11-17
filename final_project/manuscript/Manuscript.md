@@ -133,7 +133,7 @@ Future research should use larger preregistered and unseen question collections,
 
 ### Data and Code Availability
 
-The saved question bank, original responses, supplementary outputs, explicit ratings, corpus and analysis scripts are supplied with this manuscript. Repository: https://github.com/bekasyl00/rmt-cs-accuracy-assignment4; final course snapshot: tag final. Run python3 research/reproduce_manuscript.py --verify from the final-project directory to regenerate Results Tables 2–7 and Figures 1–3. Code is licensed under BSD-0-Clause. The licence does not relicense model weights or third-party documentation; their terms and attribution remain applicable. Model weights must be obtained separately at the recorded revision. No private account records or credentials are included.
+The saved question bank, original responses, supplementary outputs, explicit ratings, corpus and analysis scripts are supplied with this manuscript. Repository: https://github.com/bekasyl00/rmt-cs-accuracy-assignment4; final course snapshot: tag final. Run python3 research/reproduce_manuscript.py --verify from the final-project directory to regenerate Results Tables 2–7 and Figures 1–3. An interactive evidence browser at https://elaborate-starship-e9c848.netlify.app/ presents all 240 saved answers, source checkpoints and ratings; a self-contained offline copy is supplied in site/index.html. Code is licensed under BSD-0-Clause. The licence does not relicense model weights or third-party documentation; their terms and attribution remain applicable. Model weights must be obtained separately at the recorded revision. No private account records or credentials are included.
 
 ### Author Contributions
 

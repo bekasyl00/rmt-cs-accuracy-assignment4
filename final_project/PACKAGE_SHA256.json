@@ -1,14 +1,15 @@
 {
-  "README.md": "f62b6987a9bd40b87d59ff1817261811c3e2a9d87867314fecfc44dfd980558f",
+  ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+  "README.md": "ec74206b64fbe79c040eadc95792bf1c6c27a059c9f134d411f4d8d4efb6d8d4",
   "defence/Final_Presentation.pdf": "b526ea4949176fc89f000fe2ff26ff07bbc0201746e15d80ba71cf7dee996809",
-  "defence/NOTES.md": "e86ff841f58780e140f058f006f0295acb37a98b1624742e2be00c5bc4d3a2da",
+  "defence/NOTES.md": "ab0e812915d5a2fcff0c40b7b9163520fe1cf170f521b7530fca7e23ce76d23c",
   "journal/Appendix_A_Journal_Fit.docx": "dc1f82ca929bd06205b5751ec682d19150a1ea04d8b07125483be26c335a5974",
   "journal/Appendix_B_Readiness.docx": "31efa96ff1a61d257e4e1d8e17b592bbe796b8cc89093fce1ac1ac1001152c00",
   "journal/Cover_Letter.docx": "588b86a02ebaf95a2c0c6a025c94aff18db1aee3828c84d5e5ba548d4ffbd156",
   "journal/evidence/checks.json": "b607a7cfca3459bd21391c9aed4487d19e650b7debd7c30e5d54e54a1ae190b1",
   "journal/evidence/scopus_matches.json": "10da13f34246185b72c05e6ed0910c02530b3782533bf7917928508e9246c25d",
   "manuscript/Literature_comparison.csv": "117a3dc734ce58b62dcf57995322036cbab8ca278725da9f26672b9f81dbc41b",
-  "manuscript/Manuscript.md": "40ce442a0c4fa7fa1fd8371bf5d027eb537a3d7c0fcda7bca1d4d68b955f3378",
+  "manuscript/Manuscript.md": "5725098fa3c7a8e8279199dddbe6834d80a569935bd291d08bf81b6febf160e6",
   "manuscript/NUMBER_SOURCES.csv": "898f6a86da81b5d1a5de165c92ee3fefe63b67eb74372b657932464104adddec",
   "manuscript/assets/Figure_1.png": "35d96f3cc111be8cb5950639bbb1e2fd272490804c25b21ac64795befb182e80",
   "manuscript/assets/Figure_1.svg": "9a1a3c667e0a12be379e70c566bfa4beb815147a20ec775e95da07f1adbaf3dc",
@@ -89,5 +90,6 @@
   "research/supplement/scripts/analyze_supplement.py": "a4b602d075fd5b949278da893adee6fd367bc20a433c13b7bae4eea4001406a5",
   "research/supplement/scripts/build_corpus.py": "e3ff5a4f8f5245c270e23b37729ba50edb3e419e30e5ae2e20b2c6a032452b45",
   "research/supplement/scripts/figures_supplement.py": "a16b4a4d9e431523ca950d9468298e1566197e9d43ac9e8f1d96107814b26c04",
-  "research/supplement/scripts/run_experiment.py": "652633894aa598278dda7baef1356f7b05640071979bf3f5b15feb3ca94a33e1"
+  "research/supplement/scripts/run_experiment.py": "652633894aa598278dda7baef1356f7b05640071979bf3f5b15feb3ca94a33e1",
+  "site/index.html": "9a65b3f00e645d96efa717cf33b353ae1e495c288b0e71a26890813634345536"
 }

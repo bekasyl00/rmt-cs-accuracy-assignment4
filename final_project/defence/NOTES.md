@@ -65,3 +65,9 @@ Applied Sciences is our primary journal because it publishes programming-assista
 ## Showing evidence
 
 Run `python3 research/reproduce_manuscript.py --verify` from the project folder. Open `manuscript/NUMBER_SOURCES.csv` to find the export for a displayed table. The command recalculates saved judgments; it does not generate new model answers or measure human-rater agreement.
+
+## Live evidence browser
+
+https://elaborate-starship-e9c848.netlify.app/?experiment=supplement&item=V2Q40
+
+For slide 8, show V2Q40: Qwen scores 1/3 and Qwen + BM25 scores 3/3. Then search V2Q01 to show an error that remains after retrieval. `site/index.html` works offline as a backup.

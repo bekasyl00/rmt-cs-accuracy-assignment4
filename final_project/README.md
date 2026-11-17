@@ -5,6 +5,12 @@
 - `defence/Final_Presentation.pdf` — 10 slides. `NOTES.md` gives a 10-minute speaking allocation.
 - `research/` — original and supplementary saved data, ratings, protocols and calculation scripts.
 
+## Interactive evidence browser
+
+https://elaborate-starship-e9c848.netlify.app/
+
+Open `site/index.html` locally for the same offline browser: 40 questions, all 240 answers, original and supplementary conditions, three checkpoints, rating reasons and retrieved passages. No installation is needed. The site is an interface to saved evidence, not a new experiment.
+
 ## Reproduce every Results table and figure
 
 From this folder, with Python 3.12 or newer:
