@@ -2,7 +2,7 @@
 
 - `manuscript/Final_Manuscript.docx` — integrated article in the Applied Sciences template (local course package).
 - `journal/` — Journal Fit Statement, one-page cover letter, readiness checklist and verification evidence.
-- `defence/Final_Presentation.pdf` — 10 slides. `NOTES.md` contains the matching simple-English script, a 10-minute allocation and individual defence answers.
+- `defence/Final_Presentation.pdf` — 10 slides.
 - `research/` — original and supplementary saved data, ratings, protocols and calculation scripts.
 
 ## Interactive evidence browser
@@ -41,7 +41,3 @@ Repository: https://github.com/bekasyl00/rmt-cs-accuracy-assignment4
 Final snapshot: tag `final`, directory `final_project/`.
 
 BSD-0-Clause applies to software. Documentation excerpts and model weights retain their own terms. No model weights or private account records are bundled. Publisher-formatted Word manuscripts are kept in the local course package; the public repository contains the plain-text article and reproducibility evidence.
-
-## Remaining author and university checks
-
-Confirm competing interests and final authorship approval; each author must read the cited sources. Obtain the university similarity check. Zere and Mereke successfully verified the final project on 17 November 2026, as confirmed by Bekasyl; an outside-team reproduction and a direct live Scopus category/percentile check remain open. The official October 2026 Scopus source list and Retraction Watch ISSN check are documented in `journal/evidence/`. No journal submission has occurred.
