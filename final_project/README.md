@@ -2,7 +2,7 @@
 
 - `manuscript/Final_Manuscript.docx` — integrated article in the Applied Sciences template (local course package).
 - `journal/` — Journal Fit Statement, one-page cover letter, readiness checklist and verification evidence.
-- `defence/Final_Presentation.pdf` — 10 slides. `NOTES.md` gives a 10-minute speaking allocation.
+- `defence/Final_Presentation.pdf` — 10 slides. `NOTES.md` contains the matching simple-English script, a 10-minute allocation and individual defence answers.
 - `research/` — original and supplementary saved data, ratings, protocols and calculation scripts.
 
 ## Interactive evidence browser
@@ -44,4 +44,4 @@ BSD-0-Clause applies to software. Documentation excerpts and model weights retai
 
 ## Remaining author and university checks
 
-Confirm competing interests and final authorship approval; each author must read the cited sources. Obtain the university similarity check. Team reproduction was reported by Bekasyl; an outside-team reproduction and a direct live Scopus category/percentile check remain open. The official October 2026 Scopus source list and Retraction Watch ISSN check are documented in `journal/evidence/`. No journal submission has occurred.
+Confirm competing interests and final authorship approval; each author must read the cited sources. Obtain the university similarity check. Zere and Mereke successfully verified the final project on 17 November 2026, as confirmed by Bekasyl; an outside-team reproduction and a direct live Scopus category/percentile check remain open. The official October 2026 Scopus source list and Retraction Watch ISSN check are documented in `journal/evidence/`. No journal submission has occurred.

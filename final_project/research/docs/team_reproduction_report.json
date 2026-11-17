@@ -1,9 +1,16 @@
 {
   "reported_by": "Bekasyl Zhaksylyk",
   "reported_on": "2026-11-17",
-  "statement": "Zere/Mereke ran the project and obtained the same results as Assignment 4",
-  "individual_runner": "not specified",
+  "runners": [
+    "Zere Amantai",
+    "Mereke Myrzakhan"
+  ],
+  "verification_date": "2026-11-17",
+  "scope": "Final project verification, including manuscript exports",
+  "result": "Successful, confirmed by Bekasyl after checking their results",
+  "evidence_type": "User-reported team confirmation",
+  "statement": "Bekasyl confirmed on 17 November 2026 that Zere Amantai and Mereke Myrzakhan successfully ran the final project verification and that he checked their successful results. This is a team-reported confirmation; separate terminal transcripts were not supplied.",
   "independent_outside_team": false,
   "terminal_log_supplied": false,
-  "final_manuscript_exports_attested": false
+  "final_manuscript_exports_attested": true
 }
