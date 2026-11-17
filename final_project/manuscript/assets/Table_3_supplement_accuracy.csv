@@ -1,0 +1,4 @@
+Condition,Correct,Accuracy (%),95% CI (%),Checkpoints,Partial/incorrect
+Keyword search,4/40,10.0,4.0–23.1,52/120,23/13
+Qwen,4/40,10.0,4.0–23.1,44/120,25/11
+Qwen + BM25,6/40,15.0,7.1–29.1,65/120,28/6

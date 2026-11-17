@@ -1,0 +1,12 @@
+{
+  "checked": "2026-11-17",
+  "scopus_source_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+  "scopus_sha256": "1956c0d73b61459d634ae1a1a33fc118cba1e9ef60a1a715aebaa64c2a0dccce",
+  "scopus_edition": "October 2026",
+  "active_both": true,
+  "discontinued_exact_issn_matches": 0,
+  "live_source_profiles": "HTTP 403; official publisher source list used instead",
+  "hijacked_checker_url": "https://docs.google.com/spreadsheets/d/1ak985WGOgGbJRJbZFanoktAN_UFeExpE/edit",
+  "hijacked_csv_sha256": "76c13803b7a970aff829a53404940f3a31e380e34413929f6f35e31a5a827f45",
+  "hijacked_exact_issn_matches": 0
+}

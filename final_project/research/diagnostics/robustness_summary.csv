@@ -1,0 +1,4 @@
+condition,stratified_ci_low_pp,stratified_ci_high_pp,leave_one_out_min_pp,leave_one_out_max_pp
+GPT-6 Luna,10,40,18.75,31.25
+Sonnet 5.5,0,25,6.25,12.5
+Gemini 3.8 Flash,15,45,12.5,43.75

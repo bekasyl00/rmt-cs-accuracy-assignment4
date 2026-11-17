@@ -1,0 +1,4 @@
+Condition,Gap (pp),95% CI (pp),E only/R only,Raw p,Holm p
+GPT-6 Luna,25.0,10.0–45.0,5/0,0.0312,0.0938
+Sonnet 5.5,10.0,0.0–25.0,2/0,0.2500,0.2500
+Gemini 3.8 Flash,30.0,5.0–55.0,7/1,0.0352,0.0938

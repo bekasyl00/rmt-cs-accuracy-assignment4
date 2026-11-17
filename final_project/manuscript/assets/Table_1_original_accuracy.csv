@@ -1,0 +1,4 @@
+Condition,Overall correct,95% CI (%),Established,Recent,Checkpoints
+GPT-6 Luna,35/40 (87.5%),73.9–94.5,20/20,15/20,114/120
+Sonnet 5.5,36/40 (90.0%),76.9–96.0,19/20,17/20,119/120
+Gemini 3.8 Flash,30/40 (75.0%),59.8–85.8,18/20,12/20,111/120

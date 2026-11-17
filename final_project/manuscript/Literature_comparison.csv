@@ -1,0 +1,6 @@
+Study,Data or task,Evaluation,Difference from this study
+Kabir et al. [1],517 Stack Overflow questions,Answer correctness and user study,No release-paired five-ecosystem design
+Kandpal et al. [4],Factual QA and training coverage,Accuracy by knowledge frequency,Frequency is not feature recency
+Vu et al. [6],FreshQA changing facts,Human factuality judgments,General facts rather than software versions
+Wang et al. [5],Deprecated API completions,Deprecated usage,Code completion rather than prose QA
+Batsakis et al. [18],Model-checking problems,Comparison with formal tools,No established–recent pairing

@@ -1,0 +1,10 @@
+condition,group,n,strict_correct,checkpoint_only_correct,strict_percent,checkpoint_only_percent,added_error_penalties
+simple,overall,40,4,4,10.0,10.0,0
+simple,established,20,2,2,10.0,10.0,0
+simple,recent,20,2,2,10.0,10.0,0
+model,overall,40,4,4,10.0,10.0,0
+model,established,20,4,4,20.0,20.0,0
+model,recent,20,0,0,0.0,0.0,0
+rag,overall,40,6,9,15.0,22.5,3
+rag,established,20,2,4,10.0,20.0,2
+rag,recent,20,4,5,20.0,25.0,1

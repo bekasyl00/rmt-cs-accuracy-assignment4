@@ -1,0 +1,4 @@
+Condition,Median (s),Q1–Q3 (s),IQR (s),Reference-source hit
+Keyword search,0.0035,0.0031–0.0040,0.0010,32/40
+Qwen,6.8566,5.4484–9.2057,3.7573,N/A
+Qwen + BM25,11.8495,9.3736–14.7528,5.3792,38/40

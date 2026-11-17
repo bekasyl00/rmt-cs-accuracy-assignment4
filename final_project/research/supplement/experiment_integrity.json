@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-11-08T14:58:08.774502+00:00",
+  "first_supplementary_record_utc": "2026-11-08T14:58:48.859850+00:00",
+  "last_supplementary_record_utc": "2026-11-08T15:12:12.240249+00:00",
+  "frozen_inputs_unchanged": true,
+  "actual_outputs": 120,
+  "unique_condition_questions": 120,
+  "failed_outputs": 0,
+  "all_ratings_response_hashes_checked": true,
+  "pre_run_moodle_upload": false,
+  "claims_independent_human_rerating": false
+}

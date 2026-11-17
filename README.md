@@ -1,3 +1,15 @@
+# Final research manuscript and reproducibility
+
+The integrated course package is in [`final_project/`](final_project/README.md), release tag `final`.
+
+```bash
+python3 final_project/research/reproduce_manuscript.py --verify
+```
+
+This regenerates manuscript Results Tables 2–7 and Figures 1–3 from the complete saved evidence. The plain-text manuscript, journal checks and presentation are included. The publisher-formatted Word article is supplied separately for course/journal review.
+
+---
+
 # CS answer accuracy — Assignment 4
 
 Team: Bekasyl Zhaksylyk, Zere Amantai, Mereke Myrzakhan, SE-2418. Start with **README_RU.md** for simple Russian instructions and **Assignment4_Report.docx** for the report.

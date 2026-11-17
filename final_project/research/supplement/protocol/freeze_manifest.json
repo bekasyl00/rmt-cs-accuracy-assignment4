@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-11-08T14:58:08.774502+00:00",
+  "new_outputs_exist": false,
+  "status": "single deterministic run amendment before first supplementary answer; Moodle not submitted and disclosed",
+  "files": {
+    "data/Assignment3_Main_Experiment_Data.json": "7ff20f027235b6d4c840b2ee82b0add6bb620b9374ada004779035bd2e34fe1d",
+    "supplement/protocol/PROTOCOL.md": "8a471d923b2fc30fca89c46c06bcc316a2bfb07479f4af3f4c7128efdcda1fae",
+    "supplement/protocol/questions_only.json": "9a81a61d2c240770bedee91f8787242bcd9c6396dec73efdb7eca18a88d9a415",
+    "supplement/protocol/requirements-generation.txt": "30922cce48fe3eac22c6f5499065d783a5ef27fe7bcf119b6c196f5db16e2f24",
+    "supplement/protocol/host.json": "82bec89cec036bc50f8c869b71286b6020d331ebd7a66659f53cd82d8ad087bd",
+    "supplement/corpus/manifest.json": "5c7a521ebb2189dbf22e44f906b10019f7c10df0d25269964924e9b7896f427d",
+    "supplement/corpus/chunks.json": "5fd7ef8f402526300e40a283b51ce08a1106160f806edc8632cac5b8ec51f1bb",
+    "supplement/scripts/build_corpus.py": "e3ff5a4f8f5245c270e23b37729ba50edb3e419e30e5ae2e20b2c6a032452b45",
+    "supplement/scripts/run_experiment.py": "652633894aa598278dda7baef1356f7b05640071979bf3f5b15feb3ca94a33e1",
+    "supplement/protocol/submission_status.json": "cbcfbde9a933880268e80e82f0c4fc87e500983e66ef08a4ffa0d9bd7d5204bd"
+  }
+}

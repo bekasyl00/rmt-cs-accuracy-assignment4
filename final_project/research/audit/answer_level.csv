@@ -1,0 +1,121 @@
+condition,question_id,pair,group,block,ecosystem,checkpoint_1,checkpoint_2,checkpoint_3,points,added_error,fully_correct,checkpoint_only
+GPT-6 Luna,V2Q01,P09,established,1,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q02,P01,established,1,Python,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q03,P03,recent,1,Python,0,1,1,2,0,0,0
+GPT-6 Luna,V2Q04,P13,established,1,Node.js,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q05,P11,recent,1,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q06,P17,established,1,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q07,P05,established,1,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q08,P15,recent,1,Node.js,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q09,P07,recent,1,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q10,P19,recent,1,Git,1,0,1,2,0,0,0
+GPT-6 Luna,V2Q11,P10,established,2,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q12,P16,recent,2,Node.js,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q13,P08,recent,2,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q14,P04,recent,2,Python,0,1,1,2,1,0,0
+GPT-6 Luna,V2Q15,P12,recent,2,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q16,P14,established,2,Node.js,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q17,P18,established,2,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q18,P20,recent,2,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q19,P06,established,2,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q20,P02,established,2,Python,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q21,P03,established,3,Python,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q22,P13,recent,3,Node.js,1,0,0,1,0,0,0
+GPT-6 Luna,V2Q23,P19,established,3,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q24,P01,recent,3,Python,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q25,P15,established,3,Node.js,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q26,P09,recent,3,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q27,P05,recent,3,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q28,P07,established,3,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q29,P17,recent,3,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q30,P11,established,3,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q31,P08,established,4,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q32,P14,recent,4,Node.js,1,0,1,2,0,0,0
+GPT-6 Luna,V2Q33,P12,established,4,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q34,P10,recent,4,TypeScript,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q35,P18,recent,4,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q36,P16,established,4,Node.js,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q37,P20,established,4,Git,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q38,P06,recent,4,PostgreSQL,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q39,P04,established,4,Python,1,1,1,3,0,1,1
+GPT-6 Luna,V2Q40,P02,recent,4,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q01,P09,established,1,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q02,P01,established,1,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q03,P03,recent,1,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q04,P13,established,1,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q05,P11,recent,1,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q06,P17,established,1,Git,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q07,P05,established,1,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q08,P15,recent,1,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q09,P07,recent,1,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q10,P19,recent,1,Git,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q11,P10,established,2,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q12,P16,recent,2,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q13,P08,recent,2,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q14,P04,recent,2,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q15,P12,recent,2,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q16,P14,established,2,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q17,P18,established,2,Git,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q18,P20,recent,2,Git,1,1,1,3,1,0,1
+Sonnet 5.5,V2Q19,P06,established,2,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q20,P02,established,2,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q21,P03,established,3,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q22,P13,recent,3,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q23,P19,established,3,Git,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q24,P01,recent,3,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q25,P15,established,3,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q26,P09,recent,3,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q27,P05,recent,3,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q28,P07,established,3,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q29,P17,recent,3,Git,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q30,P11,established,3,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q31,P08,established,4,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q32,P14,recent,4,Node.js,1,0,1,2,0,0,0
+Sonnet 5.5,V2Q33,P12,established,4,TypeScript,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q34,P10,recent,4,TypeScript,1,1,1,3,1,0,1
+Sonnet 5.5,V2Q35,P18,recent,4,Git,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q36,P16,established,4,Node.js,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q37,P20,established,4,Git,1,1,1,3,1,0,1
+Sonnet 5.5,V2Q38,P06,recent,4,PostgreSQL,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q39,P04,established,4,Python,1,1,1,3,0,1,1
+Sonnet 5.5,V2Q40,P02,recent,4,Python,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q01,P09,established,1,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q02,P01,established,1,Python,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q03,P03,recent,1,Python,0,1,1,2,0,0,0
+Gemini 3.8 Flash,V2Q04,P13,established,1,Node.js,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q05,P11,recent,1,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q06,P17,established,1,Git,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q07,P05,established,1,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q08,P15,recent,1,Node.js,1,0,1,2,0,0,0
+Gemini 3.8 Flash,V2Q09,P07,recent,1,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q10,P19,recent,1,Git,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q11,P10,established,2,TypeScript,0,1,1,2,0,0,0
+Gemini 3.8 Flash,V2Q12,P16,recent,2,Node.js,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q13,P08,recent,2,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q14,P04,recent,2,Python,0,1,1,2,0,0,0
+Gemini 3.8 Flash,V2Q15,P12,recent,2,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q16,P14,established,2,Node.js,1,1,1,3,1,0,1
+Gemini 3.8 Flash,V2Q17,P18,established,2,Git,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q18,P20,recent,2,Git,0,1,1,2,0,0,0
+Gemini 3.8 Flash,V2Q19,P06,established,2,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q20,P02,established,2,Python,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q21,P03,established,3,Python,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q22,P13,recent,3,Node.js,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q23,P19,established,3,Git,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q24,P01,recent,3,Python,0,1,1,2,0,0,0
+Gemini 3.8 Flash,V2Q25,P15,established,3,Node.js,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q26,P09,recent,3,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q27,P05,recent,3,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q28,P07,established,3,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q29,P17,recent,3,Git,1,1,1,3,1,0,1
+Gemini 3.8 Flash,V2Q30,P11,established,3,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q31,P08,established,4,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q32,P14,recent,4,Node.js,1,0,1,2,0,0,0
+Gemini 3.8 Flash,V2Q33,P12,established,4,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q34,P10,recent,4,TypeScript,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q35,P18,recent,4,Git,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q36,P16,established,4,Node.js,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q37,P20,established,4,Git,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q38,P06,recent,4,PostgreSQL,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q39,P04,established,4,Python,1,1,1,3,0,1,1
+Gemini 3.8 Flash,V2Q40,P02,recent,4,Python,0,0,1,1,0,0,0
